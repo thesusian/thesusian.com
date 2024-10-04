@@ -1,0 +1,34 @@
+baseURL = "https://thesusian.com"
+enableGitInfo = false
+enableRobotsTXT = true
+hasCJKLanguage = false
+languageCode = "en"
+paginate = 20
+rssLimit = 10
+theme = "thesusian-texify2"
+title = "TheSusian"
+description = "TheSusian - a small website by Mohammad Alsoussi"
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+style = "tango"
+[markup.tableOfContents]
+endLevel = 6
+ordered = false
+startLevel = 2
+
+[author]
+email = "thesusian@riseup.net"
+name = "Mohammad Alsoussi"
+
+[params]
+title = "The Susian"
+description = "TheSusian - a small website by Mohammad Alsoussi"
+numberedSubtitles = false
+toc = false
+customJS = []
+keywords = ["Mohammad Alsoussi", "tech", "programming", "blog", "robots"]
+math = false

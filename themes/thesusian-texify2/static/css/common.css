@@ -1,0 +1,204 @@
+/* fonts */
+
+@font-face {
+    font-display: swap;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/JetBrainsMono-Bold.woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: bold;
+    src: url('../font/JetBrainsMono-BoldItalic.woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../font/JetBrainsMono-Italic.woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/JetBrainsMono-Regular.woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/EB\ Garamond\ Bold\ 700.ttf');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: bold;
+    src: url('../font/EB\ Garamond\ Bold\ Italic\ 700.ttf');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../font/EB\ Garamond\ Italic\ 400.ttf');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/EB\ Garamond\ Regular\ 400.ttf');
+}
+
+/* global */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #012e3c;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+time {
+    color: gray;
+    margin-left: 1rem;
+    min-width: 5rem;
+}
+
+#wrapper {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+    min-height: 100vh;
+    overflow-wrap: break-word;
+    padding: 1rem;
+}
+
+.link {
+    color: #256edf;
+    text-decoration: underline;
+}
+
+.paginator {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+::-webkit-scrollbar {
+    background-color: #FAFAFA;
+    height: 8px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #AAAAAA;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888888;
+}
+
+/* header */
+
+#header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#header > h1 {
+    text-align: center;
+}
+
+#header > h1 > em > a{
+    color: #256edf;
+    text-shadow: 5px 5px 5px #a2dcea; 
+}
+
+@media screen and (min-width: 768px) {
+    #header > h1 {
+        font-size: 2.8rem;
+    }
+}
+
+#header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 768px;
+    width: 100%;
+}
+
+#header > nav > span > a {
+    font-size: 1.2rem;
+}
+
+/* main */
+
+#main {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 768px;
+    padding: 2rem 0;
+    width: calc(100% - 2rem);
+}
+
+/* footer */
+
+#footer {
+    align-items: center;
+    display: flex;
+    font-size: .9rem;
+    flex-direction: column;;
+}
+
+#footer > .footnote {
+    text-align: center;
+}
+
+#sharingbuttons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+#searchbox {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+#searchbox > #search > input {
+    font-size: 1.2rem;
+}

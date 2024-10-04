@@ -1,0 +1,57 @@
+[module]
+[module.hugoVersion]
+min = "0.113.0"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+identifier = "reading"
+name = "Reading"
+url = "/reading/"
+weight = 2
+[[menu.main]]
+identifier = "social"
+name = "Social"
+url = "/soc/"
+weight = 3
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 4
+[[menu.main]]
+identifier = "archives"
+name = "Archive"
+url = "/post/"
+weight = 5
+
+[taxonomies]
+tags = "tags"
+
+[params]
+title = "TheSusian"
+description = "TheSusian - a small website by Mohammad Alsoussi"
+images = ['images/logo.png']
+keywords = ["Mohammad Alsoussi", "tech", "programming", "blog", "robots"]
+customCSS = []
+dateFormat = "January 2, 2006"
+emphasisWithDots = true
+since = "2022"
+toc = false
+showWordCount = true
+showReadingTime = true
+rootFontSize = "120%"
+math = true
+enableDuckDuckGoSearchBox = false
+numberedSubtitles = false
+
+[params.commentEngine]
+code = """
+"""
+
+[params.buymeacoffee]
+code = """
+"""
