@@ -5,7 +5,7 @@
 {{ define "main" }}
 <main id="main" class="index">
 
-  <img src="/cat.jpg" alt="cat"/ style="max-width: 200px; margin: 1em auto 0 auto;">
+  <img src="/cat.jpg" alt="cat"/ style="height: 150px; margin: 1em auto 0 auto;">
   <p style="margin: 0.5em auto 0.5rem auto;">go ahead...</p>
   <p style="margin: 0 auto 1em auto; text-align: center;">This website is permanently under construction, enjoy your stay. If you are looking for something interesting to read, check out my <a href="/tags/rcb/" style="text-decoration: underline;">RCB</a> project or one of my <a href="/tags/week/" style="text-decoration: underline;">weekly</a> posts</p>
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "==" "post") }}
