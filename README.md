@@ -5,3 +5,4 @@ It should be accessable at [thesusian.com](https://thesusian.com), original them
 ## To Do
 
 * [ ] Make hugo accept images without a root path, like `media/img.jpg` instead of having to specify `/media/img.jpg`s
+* [ ] Use a local version of mathjax, no need for cloudflare
