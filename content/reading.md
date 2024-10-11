@@ -22,11 +22,13 @@ A small reading list I have, things I've read and liked, things I want to read a
 ## Books
 
 ### 2024
+* Ahlam Mosteghanemi - **Bed Hopper**
 * Calvin S. Hall - **A Primer of Freudian Psychology**
 * Friedrich Nietzsche - **Twilight of The Idols**
 * Fyodor Dostoevsky - **Notes From Underground**
 * Kevin Poulsen - **Kingpin**
 * Paulo Coelho - **The Alchemist**
+* Philip K. Dick - **Flow My Tears, The Policeman Said**
 * William Gibson - **Virtual Light**
 
 ### 2023

@@ -3,6 +3,37 @@ title: Social
 ---
 > social: a living document where I post pictures and daily updates
 
+### 2024-10-11
+
+Finally, something good to watch.
+
+{{<youtube h0jT60MBsvc>}}
+
+----
+### 2024-10-10
+
+Accidentally stumbled upon [Galeri Eyüpsultan](https://www.instagram.com/galerieyupsultan), a pleasant surprise. They had some abstract art on display.
+
+Check it out, it's free.
+
+![Some abstract art in a room](/media/galerieyupsultan.png)
+
+Also, I just finished the PKD's book, it was really good, really really good. I might write something about it.
+
+----
+### 2024-10-07
+
+I lied, these are not daily, but who cares.
+
+Started reading PKD's "Flow My Tears, The Policeman Said" since I had it already downloaded on my phone, seems pretty good so far, and it's a nice way to pass time in the metro.
+
+We also have a new project running, a model elevator using the `PIC 16F788` with a remote, for the remote I will be trying to use an `NE555` IC and three push buttons.
+
+Messing around with circuits in Proteus is quite fun.
+
+![A circuit in Proteus](/media/proteus.png)
+
+----
 ### 2024-10-05
 
 This is inspired by [sizeof.cat](https://sizeof.cat/notes), in fact, me making a website at all is somewhat thanks to him too.
