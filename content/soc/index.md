@@ -16,7 +16,7 @@ Accidentally stumbled upon [Galeri Eyüpsultan](https://www.instagram.com/galeri
 
 Check it out, it's free.
 
-![Some abstract art in a room](/media/galerieyupsultan.png)
+![Abstract art at Galeri Eyupsultan](/media/galerieyupsultan.png)
 
 Also, I just finished the PKD's book, it was really good, really really good. I might write something about it.
 
