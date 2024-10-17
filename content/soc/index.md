@@ -1,8 +1,31 @@
 ---
 title: Social
 ---
-> social: a living document where I post pictures and daily updates
+> social: a living document where I post pictures and updates
 
+### 2024-10-17
+
+I upload these weekly, I should do this more frequently tbh.
+
+> Malkovich. Malkovich Malkovich Malkovich, Malkovich. Malkovich? Malkovich, Malkovich Malkovich. Malkovich! Malkovich? Malkovich Malkovich Malkovich. Malkovich, Malkovich, Malkovich, Malkovich... Malkovich. Malkovich Malkovich, Malkovich. Malkovich? Malkovich, Malkovich Malkovich. Malkovich!
+
+![a screenshot from "Being John Malkovich"](/media/beingjm.jpg)
+
+It was a good movie.
+
+----
+### 2024-10-15
+
+Started reading "Notes on the Synthesis of Form", I already read the first two chapters and wrote some notes on it a while ago, now it's a full read.
+
+![a nice image](/media/cleanphoto.jpg)
+
+----
+### 2024-10-14
+
+![sunset on the seaside](/media/seaside.jpg)
+
+----
 ### 2024-10-11
 
 Finally, something good to watch.
