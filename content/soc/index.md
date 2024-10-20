@@ -3,6 +3,11 @@ title: Social
 ---
 > social: a living document where I post pictures and updates
 
+### 2024-10-20
+
+Picked up Disco Elesym again. How can anyone write such an interdependent game, AND record amazing voice lines for almost every interaction!!
+
+----
 ### 2024-10-17
 
 I upload these weekly, I should do this more frequently tbh.
