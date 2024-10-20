@@ -5,7 +5,7 @@ title: Social
 
 ### 2024-10-20
 
-Picked up Disco Elesym again. How can anyone write such an interdependent game, AND record amazing voice lines for almost every interaction!!
+Picked up Disco Elysium again. How can anyone write such an interdependent game, AND record amazing voice lines for almost every interaction!!
 
 ----
 ### 2024-10-17
