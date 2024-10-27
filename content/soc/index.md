@@ -3,6 +3,13 @@ title: Social
 ---
 > social: a living document where I post pictures and updates
 
+## 2024-10-27
+
+My bad, no update for you this week...
+
+![in the midst of "it's so over", I found there was, withing me, an invincible "we're so back".](/media/back.png)
+
+----
 ### 2024-10-20
 
 Picked up Disco Elysium again. How can anyone write such an interdependent game, AND record amazing voice lines for almost every interaction!!
