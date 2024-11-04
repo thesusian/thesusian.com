@@ -3,6 +3,40 @@ title: Social
 ---
 > social: a living document where I post pictures and updates
 
+## 2024-11-03
+
+There must be a more elegant way to do this
+
+```asm
+DELAY_1K
+      MOVLW   	D'250'
+      MOVWF   	TIMER
+LOOP_1K
+      NOP
+      DECFSZ	TIMER, 1
+      GOTO 	LOOP_1K
+      RETURN
+      
+DELAY_250K
+      MOVLW   	D'250'
+      MOVWF   	TIMER1
+LOOP_250K
+      NOP
+      CALL	DELAY_1K
+      DECFSZ	TIMER1, 1
+      GOTO 	LOOP_250K
+      RETURN
+      
+DELAY_3M
+      MOVLW   	D'12'
+      MOVWF   	TIMER2
+LOOP_3M
+      NOP
+      CALL	DELAY_250K
+      DECFSZ	TIMER, 1
+      GOTO 	LOOP_3M
+      RETURN
+```
 ## 2024-11-02
 
 Rate Yildiz is now [live on Github](https://github.com/thesusian/rateyildiz.com). I will be making it open-source, mainly because I want free labor. I wanted to upload it on the server today but I can't buy the domain for some reason.
