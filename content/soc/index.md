@@ -3,6 +3,13 @@ title: Social
 ---
 > social: a living document where I post pictures and updates
 
+## 2024-11-10
+
+Turns out you can use timers and interrupts, I might write a whole post on the `PIC16F887`, but that's for future me to worry about.
+
+Instead of a weekly post this week I will be writing the post about Rate Yildiz, I think I will stick to a "one post a week" till the end of the year, or unitl I start taking this website seriously.
+
+----
 ## 2024-11-03
 
 There must be a more elegant way to do this
@@ -37,10 +44,13 @@ LOOP_3M
       GOTO 	LOOP_3M
       RETURN
 ```
+
+----
 ## 2024-11-02
 
 Rate Yildiz is now [live on Github](https://github.com/thesusian/rateyildiz.com). I will be making it open-source, mainly because I want free labor. I wanted to upload it on the server today but I can't buy the domain for some reason.
 
+----
 ## 2024-10-27
 
 My bad, no update for you this week...
