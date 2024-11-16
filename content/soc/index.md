@@ -3,6 +3,12 @@ title: Social
 ---
 > social: a living document where I post pictures and updates
 
+
+## 2024-11-15
+
+I want to redesign this whole thing, maybe after exams...
+
+----
 ## 2024-11-10
 
 Turns out you can use timers and interrupts, I might write a whole post on the `PIC16F887`, but that's for future me to worry about.
