@@ -3,7 +3,15 @@ title: Social
 ---
 > social: a living document where I post pictures and updates
 
+## 2024-12-14
 
+When watching movies, I notice myself noticing and judging the acting, based on how I assume the director intended. But this time I was seeing something genuine, something real, and beautiful. The director in the subject.
+
+![Close Up](/media/closeup.jpg)
+
+Been a while
+
+----
 ## 2024-11-15
 
 I want to redesign this whole thing, maybe after exams...
