@@ -1,7 +1,7 @@
 #main > .post-group > ul {
     border-left: gray solid 1px;
     list-style-type: none;
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     padding-left: 1rem;
 }
 
@@ -22,4 +22,47 @@
         margin-left: 1rem;
         padding-left: 2rem;
     }
+}
+
+/* Styles for soc posts */
+.soc-post {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.soc-post:last-child {
+    border-bottom: none;
+}
+
+.soc-post h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.soc-post hr {
+    height: 2px;
+}
+/* Pagination styles */
+.paginator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.paginator span {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.paginator .link {
+    color: #256edf;
+    text-decoration: none;
+}
+
+.paginator .link:hover {
+    text-decoration: underline;
 }

@@ -1,25 +1,63 @@
 {{ define "head" }}
-<link rel="stylesheet" href='{{ "css/list.css" | absURL }}'>
-{{ end }}
-
-{{ define "main" }}
+<link rel="stylesheet" href='{{ "css/list.css" | absURL }}' />
+{{ end }} {{ define "main" }}
 <main id="main" class="archive">
-  {{ $pages := where .Data.Pages "Type" "post" }}
-  {{ range $pages.GroupByDate "2006" }}
-  <div class="post-group">
-    <h2>{{ dateFormat "2006" (printf "%s-01-01" .Key) }}</h2>
-    <ul>
-      {{ range .Pages }}
-      <li>
-        <a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <time>{{ .PublishDate.Format .Site.Params.dateFormat }}</time>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
-  {{ end }}
-  <div class="post-group">
-    <h2>...</h2>
-  </div>
+    {{ if eq .Section "soc" }}
+    <!-- Special handling for soc section -->
+    <blockquote>
+        social: a living document where I post pictures and updates
+    </blockquote>
+    {{ $paginator := .Paginate (where .Pages "Type" "soc") 10 }} {{ range
+    $paginator.Pages }}
+    <article class="soc-post">
+        <h2>
+            <!--<a href="{{ .RelPermalink }}">{{ .Title }}</a>-->
+            {{ .Date.Format "2006-01-02" }}
+        </h2>
+        <div class="content">{{ .Content }}</div>
+    </article>
+    <hr />
+    {{ end }}
+
+    <!-- Pagination controls -->
+    {{ if or $paginator.HasPrev $paginator.HasNext }}
+    <nav class="paginator">
+        {{ if $paginator.HasPrev }}
+        <a class="link" href="{{ $paginator.Prev.URL }}">← prev</a>
+        {{ else }}
+        <a></a>
+        {{ end }}
+
+        <span
+            >Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages
+            }}</span
+        >
+
+        {{ if $paginator.HasNext }}
+        <a class="link" href="{{ $paginator.Next.URL }}">next →</a>
+        {{ else }}
+        <a></a>
+        {{ end }}
+    </nav>
+    {{ end }} {{ else }}
+    <!-- Original handling for other sections -->
+    {{ $pages := where .Data.Pages "Type" "post" }} {{ range $pages.GroupByDate
+    "2006" }}
+    <div class="post-group">
+        <h2>{{ dateFormat "2006" (printf "%s-01-01" .Key) }}</h2>
+        <ul>
+            {{ range .Pages }}
+            <li>
+                <a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <time>{{ .PublishDate.Format $.Site.Params.dateFormat }}</time>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+    <div class="post-group">
+        <h2>...</h2>
+    </div>
+    {{ end }}
 </main>
 {{ end }}

@@ -21,12 +21,17 @@ A small reading list I have, things I've read and liked, things I want to read a
 
 ## Books
 
+### 2025
+* Carl Jung - **Memories, Dreams, Reflections**
+
 ### 2024
 * Ahlam Mosteghanemi - **Bed Hopper**
 * Calvin S. Hall - **A Primer of Freudian Psychology**
+* Christopher Alexander - **Notes on the Synthesis of Form**
 * Friedrich Nietzsche - **Twilight of The Idols**
 * Fyodor Dostoevsky - **Notes From Underground**
 * Kevin Poulsen - **Kingpin**
+* Melanie Mitchell - **Complexity: A Guided Tour**
 * Paulo Coelho - **The Alchemist**
 * Philip K. Dick - **Flow My Tears, The Policeman Said**
 * William Gibson - **Virtual Light**

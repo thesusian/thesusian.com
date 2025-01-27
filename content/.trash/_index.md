@@ -1,8 +1,19 @@
 ---
 title: Social
+draft: true
 ---
 > social: a living document where I post pictures and updates
 
+## 2025-01-27
+
+I would like to say it was finals, but it was mostly just me. Will try to get back on track. I archived all of the weekly posts as they add so little value, if you are that interested you can see them in the commit history I guess.
+
+Anyway, now go watch this masterpiece of a film.
+
+![Eternal Sunshine of the Spotless Mind](/media/eternal_sunshine.jpg)
+*Eternal Sunshine of the Spotless Mind*
+
+----
 ## 2024-12-14
 
 When watching movies, I notice myself noticing and judging the acting, based on how I assume the director intended. But this time I was seeing something genuine, something real, and beautiful. The director in the subject.
@@ -37,7 +48,7 @@ LOOP_1K
       DECFSZ	TIMER, 1
       GOTO 	LOOP_1K
       RETURN
-      
+
 DELAY_250K
       MOVLW   	D'250'
       MOVWF   	TIMER1
@@ -47,7 +58,7 @@ LOOP_250K
       DECFSZ	TIMER1, 1
       GOTO 	LOOP_250K
       RETURN
-      
+
 DELAY_3M
       MOVLW   	D'12'
       MOVWF   	TIMER2
