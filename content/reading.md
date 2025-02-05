@@ -24,6 +24,7 @@ A small reading list I have, things I've read and liked, things I want to read a
 ### 2025
 * Carl Jung - **Memories, Dreams, Reflections**
 * Johann Wolfgang von Goethe - **Faust, Part One**
+* Johann Wolfgang von Goethe - **The Sorrows of Young Werther**
 
 ### 2024
 * Ahlam Mosteghanemi - **Bed Hopper**
