@@ -2,4 +2,5 @@ public
 .obsidian
 .venv
 .stfolder
+.trash
 deploy.sh
