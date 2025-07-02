@@ -22,23 +22,31 @@ A small reading list I have, things I've read and liked, things I want to read a
 ## Books
 
 ### 2025
+
 * Carl Jung - **Memories, Dreams, Reflections**
+* Carl Jung et al - **Man And His Symbols**
 * Johann Wolfgang von Goethe - **Faust, Part One**
 * Johann Wolfgang von Goethe - **The Sorrows of Young Werther**
+* Philip K. Dick - **Ubik**
+* qntm - **There is No Antimemetics Division**
+* William Gibson - **Idoru**
 
 ### 2024
+
 * Ahlam Mosteghanemi - **Bed Hopper**
 * Calvin S. Hall - **A Primer of Freudian Psychology**
 * Christopher Alexander - **Notes on the Synthesis of Form**
 * Friedrich Nietzsche - **Twilight of The Idols**
 * Fyodor Dostoevsky - **Notes From Underground**
 * Kevin Poulsen - **Kingpin**
+* Margaret Peterson Haddix - **Don't You Dare Read This, Mrs. Dunphrey**
 * Melanie Mitchell - **Complexity: A Guided Tour**
 * Paulo Coelho - **The Alchemist**
 * Philip K. Dick - **Flow My Tears, The Policeman Said**
 * William Gibson - **Virtual Light**
 
 ### 2023
+
 * Ahlam Mosteghanemi - **Memory in the Flesh**
 * Anna Lembke - **Dopamine Nation**
 * Edward Snowden - **Permanent Record**

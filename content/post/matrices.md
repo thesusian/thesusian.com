@@ -88,7 +88,7 @@ $$
 
 Multiplying a matrix by another, this will be interesting
 
-#### [Vectors](vectors)
+#### Vectors
 
 *AKA (Dot/Scalar) product*
 Dot products for n-vectors can be denoted as \\(\overrightarrow{a}\cdot\overrightarrow{b}\\)  or \\((<\overrightarrow{a},\overrightarrow{b}>)\\)

@@ -4,13 +4,13 @@ tags:
   - about
 ---
 ## About
-	
+
 Good evening, I'm Mohammad Alsoussi, a student living in Istanbul, it's a bit cloudy at the moment.
-	
+
 My life is not terribly interesting, I was born in Jordan then I moved to Istanbul, my dad introduced me to computers when I was 12ish, but I never realized how much power an etched piece of silicone holds until recently.
-	
+
 I found the list of things I'm good at to be too long, so here is a list of things I'm *not* good at, because otherwise we would go on for millions of lines and your computer would probably crash.
-	
+
 * Things I'm not good at
 	* Sports
 	* Making popcorn
@@ -23,10 +23,8 @@ I also dabbled a bit in cyber security, I did some capture the flag competitions
 
 ## Contact
 
-If you want to message me you can use my [X account](https://x.com/thesusian) or send me an email on my [personal email](mailto:thesusian@riseup.net). And finally here is my obligatory [LinkedIn](https://www.linkedin.com/in/thesusian/), I don't really use it but it exists, if you care.
+If you want to message me you can use my ~[X account](https://x.com/thesusian)~ (that is gone now) or send me an email on my [personal email](mailto:thesusian@riseup.net). And finally here is my obligatory [LinkedIn](https://www.linkedin.com/in/thesusian/), I don't really use it but it exists, if you care.
 
 ## Now
 
-Now I'm working on a small robot arm, which I plan to make into a full humanoid robot, you can [check out the progress here](/tags/rcb/).
-
-![RCB top view](/media/rcb_hand_top_view.png)
+Still figuring things out, will update — at some point
